@@ -19,6 +19,7 @@ import {
 import './app/shared/store/auth.actions.spec.ts';
 import './app/shared/store/auth.reducer.spec.ts';
 import './app/shared/store/auth.selectors.spec.ts';
+import './app/shared/store/auth.effect.spec.ts';
 
 declare global {
   interface Window {
