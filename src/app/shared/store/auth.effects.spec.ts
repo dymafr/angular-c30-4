@@ -5,7 +5,7 @@ import { RunHelpers } from 'rxjs/internal/testing/TestScheduler';
 import { Actions } from '@ngrx/effects';
 import { of, throwError } from 'rxjs';
 
-describe('[ auth ] effects ', () => {
+describe('*** AuthEffects ***', () => {
   const router = jasmine.createSpyObj('router', ['navigateByUrl']);
   const authService = jasmine.createSpyObj('authService', [
     'fetchCurrentUser',
